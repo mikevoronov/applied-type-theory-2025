@@ -59,7 +59,6 @@
 ### Основная
 - **Pierce** — *Types and Programming Languages* (TAPL)
 - **Nederpelt, Geuvers** — *Type Theory and Formal Proof: An Introduction*
-- **Software Foundations** — [онлайн](https://softwarefoundations.cis.upenn.edu)
 
 ### λ-исчисление и основы
 - **Barendregt** — *The Lambda Calculus: Its Syntax and Semantics*
@@ -69,18 +68,17 @@
 
 ### Coq и формальная верификация
 - **Bertot, Castéran** — *Interactive Theorem Proving and Program Development* (Coq'Art)
-- **Chlipala** — *Certified Programming with Dependent Types* (CPDT) — [онлайн](http://adam.chlipala.net/cpdt/)
-- **Mimram** — *Program = Proof* — [онлайн](https://program-proof.github.io/)
+- **Chlipala** — *Certified Programming with Dependent Types* (CPDT)
+- **Mimram** — *Program = Proof*
 
 ### Зависимые типы и MLTT
 - **Martin-Löf** — *Intuitionistic Type Theory* (Bibliopolis, 1984)
 - **Nordström, Petersson, Smith** — *Programming in Martin-Löf's Type Theory*
-- **The Agda Wiki** — [онлайн](https://wiki.portal.chalmers.se/agda)
+- **The Agda Wiki** — [сайт](https://wiki.portal.chalmers.se/agda)
 
 ### HoTT и унивалентные основания
-- **HoTT Book** — *Homotopy Type Theory: Univalent Foundations of Mathematics* — [онлайн](https://homotopytypetheory.org/book)
+- **HoTT Book** — *Homotopy Type Theory: Univalent Foundations of Mathematics* — [сайт](https://homotopytypetheory.org/book)
 - **Rijke** — *Introduction to Homotopy Type Theory* — [arXiv](https://arxiv.org/abs/2212.11082)
-- **Escardó** — *Introduction to Univalent Foundations of Mathematics with Agda* — [онлайн](https://www.cs.bham.ac.uk/~mhe/HoTT-UF-in-Agda-Lecture-Notes/)
 
 ### Субструктурные и линейные типы
 - **Wadler** — *Linear Types Can Change the World!* (1990)
@@ -94,7 +92,7 @@
 
 ### Rust и ownership
 - **Jung et al.** — *RustBelt: Securing the Foundations of the Rust Programming Language* (POPL 2018)
-- **The Rustonomicon** — [онлайн](https://doc.rust-lang.org/nomicon/)
+- **The Rustonomicon** — [сайт](https://doc.rust-lang.org/nomicon/)
 - **Weiss et al.** — *Oxide: The Essence of Rust* (2019)
 
 ### Neuro-symbolic AI и LLM (лекция 12)
@@ -109,10 +107,29 @@
 - **Awodey** — *Category Theory* (Oxford Logic Guides)
 - **Crole** — *Categories for Types*
 
-### Видеокурсы
-- Курс Москвитина Д.Н. — *Функциональное программирование* — [YouTube](https://www.youtube.com/watch?v=0h3Ot1C0d2I&list=PLlb7e2G7aSpTDub2LFDVBvvjWj-53Gfuh)
+## Похожие курсы
+
+### Летние школы
 - **Oregon Programming Languages Summer School** (OPLSS) — [сайт](https://www.cs.uoregon.edu/research/summerschool/)
 - **DeepSpec Summer School** — [сайт](https://deepspec.org/)
+- **HoTTEST Summer School** — [сайт](https://hottest-seminar.github.io/) — онлайн школа по HoTT
+
+### Интерактивные учебники
+- **Software Foundations** (UPenn) — [сайт](https://softwarefoundations.cis.upenn.edu) — классика по Coq от B. Pierce
+- **Programming Language Foundations in Agda** (PLFA) — [сайт](https://plfa.github.io/) — теория типов на Agda
+- **Certified Programming with Dependent Types** (MIT) — [сайт](http://adam.chlipala.net/cpdt/) — продвинутый курс A. Chlipala
+- **Introduction to Univalent Foundations** (Birmingham) — [сайт](https://www.cs.bham.ac.uk/~mhe/HoTT-UF-in-Agda-Lecture-Notes/) — HoTT на Agda, M. Escardó
+
+### Университетские курсы
+- **15-814 Types and Programming Languages** (CMU) — [сайт](https://www.cs.cmu.edu/~rwh/courses/typesys/) — R. Harper
+- **98-317 Hype for Types** (CMU) — [сайт](https://hypefortypes.github.io/) — студенческий курс по теории типов
+- **Homotopy Type Theory** (CMU) — [сайт](https://www.cs.cmu.edu/~rwh/courses/hott/) — HoTT от R. Harper
+- **Homotopy Type Theory** (École Polytechnique) — [сайт](https://www.lix.polytechnique.fr/Labo/Samuel.Mimram/teaching/hott/) — S. Mimram
+- **Homotopy Type Theory** (Ljubljana) — [сайт](https://github.com/andrejbauer/homotopy-type-theory-course) — A. Bauer
+- **Functional Programming** (Chalmers) — [сайт](https://www.cse.chalmers.se/edu/course/TDA452/) — известный курс по Haskell и Agda
+- **Функциональное программирование** (CSC/ВШЭ) — [YouTube](https://www.youtube.com/watch?v=0h3Ot1C0d2I&list=PLlb7e2G7aSpTDub2LFDVBvvjWj-53Gfuh) — другой известный курс по функциональному программированию от Д.Н. Москвина
+- **Semantics of Programming Languages** (Cambridge) — [сайт](https://www.cl.cam.ac.uk/teaching/current/Semantics/) — Part II Tripos
+- **Introduction to HoTT** (Ljubljana) — [YouTube](https://www.youtube.com/playlist?list=PL1-2D_rCQBarjdqnM21sOsx09CtFSVO6Z) — A. Bauer
 
 ## Контакты
 
