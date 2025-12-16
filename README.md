@@ -4,34 +4,42 @@
 
 Курс по теории типов с акцентом на практические применения: от λ-исчисления до зависимых типов, HoTT и нейро-символического AI.
 
+## Ключевые темы курса
+
+```
+λ-исчисление → STLC → System F → λω/λP → MLTT → CIC → HoTT
+      ↓           ↓         ↓        ↓       ↓      ↓
+   Редукции    Типы    Полиморф.  Завис.  Coq/   Унивал.
+   α,β,η      ADT     ∀α.τ      типы    Lean   UA, HIT
+```
+
 ## Структура курса
 
 ### Лекции
 
-| # | Тема | Файл |
-|---|------|------|
-| 1 | Введение в λ-исчисление | `lecture-1.tex` |
-| 2 | λ-исчисление: редукции и нормализация | `lecture-2.tex` |
-| 3 | Просто типизированное λ-исчисление (STLC) | `lecture-3.tex` |
-| 4 | Алгебраические типы данных (ADT) | `lecture-4.tex` |
-| 5 | Алгебра типов, изоморфизмы | `lecture-5.tex` |
-| 6 | System F (λ2) — полиморфизм второго порядка | `lecture-5.tex` |
-| 7 | Соответствие Карри–Ховарда | `lecture-7.tex` |
-| 8 | Субструктурные и сессионные типы | `lecture-8.tex` |
-| 9 | λω, λP — высшие типы и зависимые типы | `lecture-9.tex` |
-| 10 | От MLTT к Coq: CIC, Identity types | `lecture-10.tex` |
-| 11 | Унивалентность, эквивалентности, HIT | `lecture-11.tex` |
-| 12 | Neuro-symbolic AI & Type Theory | `lecture-12.tex` |
+| # | Тема | Слайды |
+|---|------|--------|
+| 1 | Введение в λ-исчисление | [PDF](lecture-1.pdf) |
+| 2 | λ-исчисление: редукции и нормализация | [PDF](lecture-2.pdf) |
+| 3–4 | Просто типизированное λ-исчисление (STLC) | [PDF](lecture-3,4.pdf) |
+| 5–6 | ADT и алгебра типов | [PDF](lecture-5,6.pdf) |
+| 6 | System F (λ2) — полиморфизм второго порядка | [PDF](lecture-6.pdf) |
+| 7 | Соответствие Карри–Ховарда | [PDF](lecture-7.pdf) |
+| 8 | Субструктурные и сессионные типы | [PDF](lecture-8.pdf) |
+| 9 | λω, λP — высшие типы и зависимые типы | [PDF](lecture-9.pdf) |
+| 10 | От MLTT к Coq: CIC, Identity types | [PDF](lecture-10.pdf) |
+| 11 | Унивалентность, эквивалентности, HIT | [PDF](lecture-11.pdf) |
+| 12 | Neuro-symbolic AI & Type Theory | [PDF](lecture-12.pdf) |
 
 ### Домашние задания
 
-| # | Тема | Формат | Файл |
-|---|------|--------|------|
-| 1 | Нетипизированное λ-исчисление | LaTeX/PDF | `assignment-1.tex` |
-| 2 | STLC, типизация | LaTeX/PDF | `assignment-2.tex` |
-| 3 | ADT, алгебра типов | LaTeX/PDF | `assignment-3.tex` |
-| 4 | Coq: базовые доказательства | Coq | `assignment_4.v` |
-| 5 | Coq: зависимые типы, Identity types, HoTT | Coq | `assignment_5.v` |
+| # | Тема | Формат | Ссылка |
+|---|------|--------|--------|
+| 1 | Нетипизированное λ-исчисление | LaTeX/PDF | [ДЗ 1](assignments/assignment-1.tex) |
+| 2 | STLC, типизация | LaTeX/PDF | [ДЗ 2](assignments/assignment-2.tex) |
+| 3 | ADT, алгебра типов | LaTeX/PDF | [ДЗ 3](assignments/assignment-3.tex) |
+| 4 | Coq: базовые доказательства | Coq | [ДЗ 4](assignments/assignment_4.v) |
+| 5 | Coq: зависимые типы, Identity types, HoTT | Coq | [ДЗ 5](assignments/assignment_5.v) |
 
 ## Система оценивания
 
@@ -51,7 +59,7 @@
 ### Основная
 - **Pierce** — *Types and Programming Languages* (TAPL)
 - **Nederpelt, Geuvers** — *Type Theory and Formal Proof: An Introduction*
-- **Software Foundations** — [softwarefoundations.cis.upenn.edu](https://softwarefoundations.cis.upenn.edu)
+- **Software Foundations** — [онлайн](https://softwarefoundations.cis.upenn.edu)
 
 ### λ-исчисление и основы
 - **Barendregt** — *The Lambda Calculus: Its Syntax and Semantics*
@@ -61,18 +69,18 @@
 
 ### Coq и формальная верификация
 - **Bertot, Castéran** — *Interactive Theorem Proving and Program Development* (Coq'Art)
-- **Chlipala** — *Certified Programming with Dependent Types* (CPDT) — [adam.chlipala.net/cpdt](http://adam.chlipala.net/cpdt/)
-- **Mimram** — *Program = Proof* — [program-proof.github.io](https://program-proof.github.io/)
+- **Chlipala** — *Certified Programming with Dependent Types* (CPDT) — [онлайн](http://adam.chlipala.net/cpdt/)
+- **Mimram** — *Program = Proof* — [онлайн](https://program-proof.github.io/)
 
 ### Зависимые типы и MLTT
 - **Martin-Löf** — *Intuitionistic Type Theory* (Bibliopolis, 1984)
 - **Nordström, Petersson, Smith** — *Programming in Martin-Löf's Type Theory*
-- **The Agda Wiki** — [wiki.portal.chalmers.se/agda](https://wiki.portal.chalmers.se/agda)
+- **The Agda Wiki** — [онлайн](https://wiki.portal.chalmers.se/agda)
 
 ### HoTT и унивалентные основания
-- **HoTT Book** — *Homotopy Type Theory: Univalent Foundations of Mathematics* — [homotopytypetheory.org/book](https://homotopytypetheory.org/book)
-- **Rijke** — *Introduction to Homotopy Type Theory* — [arxiv.org/abs/2212.11082](https://arxiv.org/abs/2212.11082)
-- **Escardó** — *Introduction to Univalent Foundations of Mathematics with Agda* — [cs.bham.ac.uk/~mhe/HoTT-UF-in-Agda-Lecture-Notes](https://www.cs.bham.ac.uk/~mhe/HoTT-UF-in-Agda-Lecture-Notes/)
+- **HoTT Book** — *Homotopy Type Theory: Univalent Foundations of Mathematics* — [онлайн](https://homotopytypetheory.org/book)
+- **Rijke** — *Introduction to Homotopy Type Theory* — [arXiv](https://arxiv.org/abs/2212.11082)
+- **Escardó** — *Introduction to Univalent Foundations of Mathematics with Agda* — [онлайн](https://www.cs.bham.ac.uk/~mhe/HoTT-UF-in-Agda-Lecture-Notes/)
 
 ### Субструктурные и линейные типы
 - **Wadler** — *Linear Types Can Change the World!* (1990)
@@ -86,7 +94,7 @@
 
 ### Rust и ownership
 - **Jung et al.** — *RustBelt: Securing the Foundations of the Rust Programming Language* (POPL 2018)
-- **The Rustonomicon** — [doc.rust-lang.org/nomicon](https://doc.rust-lang.org/nomicon/)
+- **The Rustonomicon** — [онлайн](https://doc.rust-lang.org/nomicon/)
 - **Weiss et al.** — *Oxide: The Essence of Rust* (2019)
 
 ### Neuro-symbolic AI и LLM (лекция 12)
@@ -102,18 +110,9 @@
 - **Crole** — *Categories for Types*
 
 ### Видеокурсы
-- Курс Москвитина Д.Н. — *Функциональное программирование* [https://www.youtube.com/watch?v=0h3Ot1C0d2I&list=PLlb7e2G7aSpTDub2LFDVBvvjWj-53Gfuh](YouTube)
-- **Oregon Programming Languages Summer School** (OPLSS) — [cs.uoregon.edu/research/summerschool](https://www.cs.uoregon.edu/research/summerschool/)
-- **DeepSpec Summer School** — [deepspec.org](https://deepspec.org/)
-
-## Ключевые темы курса
-
-```
-λ-исчисление → STLC → System F → λω/λP → MLTT → CIC → HoTT
-      ↓           ↓         ↓        ↓       ↓      ↓
-   Редукции    Типы    Полиморф.  Завис.  Coq/   Унивал.
-   α,β,η      ADT     ∀α.τ      типы    Lean   UA, HIT
-```
+- Курс Москвитина Д.Н. — *Функциональное программирование* — [YouTube](https://www.youtube.com/watch?v=0h3Ot1C0d2I&list=PLlb7e2G7aSpTDub2LFDVBvvjWj-53Gfuh)
+- **Oregon Programming Languages Summer School** (OPLSS) — [сайт](https://www.cs.uoregon.edu/research/summerschool/)
+- **DeepSpec Summer School** — [сайт](https://deepspec.org/)
 
 ## Контакты
 
