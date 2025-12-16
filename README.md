@@ -19,25 +19,25 @@
 
 | # | Тема | Слайды |
 |---|------|--------|
-| 1 | Введение в λ-исчисление | [PDF](lecture-1.pdf) |
-| 2 | λ-исчисление: редукции и нормализация | [PDF](lecture-2.pdf) |
-| 3–4 | Просто типизированное λ-исчисление (STLC) | [PDF](lecture-3,4.pdf) |
-| 5–6 | ADT и алгебра типов | [PDF](lecture-5,6.pdf) |
-| 6 | System F (λ2) — полиморфизм второго порядка | [PDF](lecture-6.pdf) |
-| 7 | Соответствие Карри–Ховарда | [PDF](lecture-7.pdf) |
-| 8 | Субструктурные и сессионные типы | [PDF](lecture-8.pdf) |
-| 9 | λω, λP — высшие типы и зависимые типы | [PDF](lecture-9.pdf) |
-| 10 | От MLTT к Coq: CIC, Identity types | [PDF](lecture-10.pdf) |
-| 11 | Унивалентность, эквивалентности, HIT | [PDF](lecture-11.pdf) |
-| 12 | Neuro-symbolic AI & Type Theory | [PDF](lecture-12.pdf) |
+| 1 | Введение в λ-исчисление | [PDF](lectures/lecture-1.pdf) |
+| 2 | λ-исчисление: редукции и нормализация | [PDF](lectures/lecture-2.pdf) |
+| 3–4 | Просто типизированное λ-исчисление (STLC) | [PDF](lectures/lecture-3,4.pdf) |
+| 5–6 | ADT и алгебра типов | [PDF](lectures/lecture-5,6.pdf) |
+| 6 | System F (λ2) — полиморфизм второго порядка | [PDF](lectures/lecture-6.pdf) |
+| 7 | Соответствие Карри–Ховарда | [PDF](lectures/lecture-7.pdf) |
+| 8 | Субструктурные и сессионные типы | [PDF](lectures/lecture-8.pdf) |
+| 9 | λω, λP — высшие типы и зависимые типы | [PDF](lectures/lecture-9.pdf) |
+| 10 | От MLTT к Coq: CIC, Identity types | [PDF](lectures/lecture-10.pdf) |
+| 11 | Унивалентность, эквивалентности, HIT | [PDF](lectures/lecture-11.pdf) |
+| 12 | Neuro-symbolic AI & Type Theory | [PDF](lectures/lecture-12.pdf) |
 
 ### Домашние задания
 
 | # | Тема | Формат | Ссылка |
 |---|------|--------|--------|
-| 1 | Нетипизированное λ-исчисление | LaTeX/PDF | [ДЗ 1](assignments/assignment-1.tex) |
-| 2 | STLC, типизация | LaTeX/PDF | [ДЗ 2](assignments/assignment-2.tex) |
-| 3 | ADT, алгебра типов | LaTeX/PDF | [ДЗ 3](assignments/assignment-3.tex) |
+| 1 | Нетипизированное λ-исчисление | LaTeX/PDF | [ДЗ 1](assignments/assignment-1.pdf) |
+| 2 | STLC, алгебра типов | LaTeX/PDF | [ДЗ 2](assignments/assignment-2.pdf) |
+| 3 | λ2, соответствие Карри–Ховарда | LaTeX/PDF | [ДЗ 3](assignments/assignment-3.pdf) |
 | 4 | Coq: базовые доказательства | Coq | [ДЗ 4](assignments/assignment_4.v) |
 | 5 | Coq: зависимые типы, Identity types, HoTT | Coq | [ДЗ 5](assignments/assignment_5.v) |
 
